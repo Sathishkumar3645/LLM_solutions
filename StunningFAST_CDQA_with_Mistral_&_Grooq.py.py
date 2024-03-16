@@ -15,11 +15,11 @@ from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 load_dotenv()  #
 
-groq_api_key = "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"
+groq_api_key = "grroq_api_key"
 import getpass
 
 # inference_api_key = getpass.getpass("Enter your HF Inference API Key:\n\n")
-inference_api_key = "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"
+inference_api_key = "huggingface_key"
 
 if "vector" not in st.session_state:
     print("in vector")
